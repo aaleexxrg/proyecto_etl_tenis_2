@@ -1,0 +1,9 @@
+pandas
+numpy
+sqlalchemy
+mysql-connector-python
+pyspark
+findspark
+matplotlib
+seaborn
+scipy

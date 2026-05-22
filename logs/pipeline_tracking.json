@@ -1,0 +1,38 @@
+[
+    {
+        "fecha": "2026-05-22T10:49:12.053917",
+        "fase": "EXTRACT",
+        "fuente": "F1 - Partidos ATP",
+        "entrada": 0,
+        "salida": 2986,
+        "descartados": 0,
+        "motivo": "Descarga CSV"
+    },
+    {
+        "fecha": "2026-05-22T10:49:14.114371",
+        "fase": "EXTRACT",
+        "fuente": "F2 - Jugadores ATP",
+        "entrada": 0,
+        "salida": 66820,
+        "descartados": 0,
+        "motivo": "Descarga CSV"
+    },
+    {
+        "fecha": "2026-05-22T10:49:14.719513",
+        "fase": "EXTRACT",
+        "fuente": "F3 - Rankings ATP",
+        "entrada": 0,
+        "salida": 29681,
+        "descartados": 0,
+        "motivo": "Conversi\u00f3n CSV a JSON"
+    },
+    {
+        "fecha": "2026-05-22T10:52:20.698874",
+        "fase": "T01",
+        "fuente": "F2 Jugadores",
+        "entrada": 66820,
+        "salida": 66820,
+        "descartados": 0,
+        "motivo": "Duplicados por player_id"
+    }
+]
